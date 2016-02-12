@@ -1,0 +1,177 @@
+body {
+  background-color: #d1d0cb;
+  margin: 0;
+}
+::selection {
+  color: #caedff;
+  background-color: #031219;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg.jpg); 
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -10;
+  margin-top: 0;
+}
+a {
+  color: #3b5065;
+}
+a:hover {
+  text-decoration: none;
+  color: #031219;
+}
+#header {
+  margin: 0 auto;
+  display: block;
+}
+#header-text {
+  margin-top: 50px;
+  width: 95%;
+  margin: 0 auto;
+}
+h1, h2 {
+  font-family: 'Alegreya Sans', Courier, monospace;
+  color: #000;
+  text-align: center;
+}
+#header h1 {
+  font-size: 4em;
+  font-family: 'Exo 2', 'Alegreya Sans', Courier, monospace;
+  font-weight: 300;
+  color: #3b5065;
+  letter-spacing: .2em;
+}
+#tagline {
+  font-weight: 400;
+  font-family: 'Roboto Slab', Georgia, serif;
+  color: #4a1313;
+  }
+h2 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+#inputs {
+  margin: 0  auto;
+  text-align: center;
+  font-weight: 300;
+}
+#inputs input {
+  font-family: Arial;
+  padding: 10px;
+  display: inline;
+  background-color:rgba(255,0,0,0.5);
+}
+#inputs input[type="submit"] {
+  background-color: #fa4542 ; 
+  color: #fff;
+  width: 300px;
+  height: 42px;
+  font-family: 'Alegreya Sans', Courier, monospace;
+  font-weight: 500;
+  padding-bottom: 15px;
+  border-color: #fa4542;
+}
+#inputs input[type="submit"]:hover {
+  color:#fa4542;
+  background:#fff;
+  border-color: #fa4542;
+}
+#inputs input[type="submit"]:active {
+  border: 1px solid #fa4542;
+ }
+#inputs input[type="email"] {
+  width: 400px;
+  height: 42px;
+}
+nav .container {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0px;
+  padding: 20px;
+}
+label {
+  float:left;
+  font-family: 'Alegreya Sans', Courier, monospace;
+  font-weight: 500;
+  font-size: 24px;
+  color: #f88785;
+  padding: 5px;
+  vertical-align: middle;
+  }
+#social {
+  margin: 0 auto;
+  font-size: 25px;
+  padding-top: 8px;
+  text-align: center;
+  color: #000;
+}
+#social a {
+  color: #3d0909;
+}
+#watch-space {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+#watch-space h2 {
+  font-family: Roboto Slab, Georgia, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+#header-logo {
+  font-family: 'Exo 2', 'Alegreya Sans', Courier, monospace;
+  font-weight: 200;
+  letter-spacing: .2em;
+  color: #3b5065;
+  font-style: normal;
+}
+#header-logo:hover {
+  text-decoration: none;
+  color: #031219;
+}
+#phantom {
+  font-family: Roboto Slab, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: .1em;
+  color: #6f2825;
+}
+hr {
+  border-width: 3px;
+  border-color: #3b5065;
+}
+@media (max-width: 560px) {
+  #header h1 {
+  font-size: 2em;
+  padding-top: 0;
+  }
+  #header h2 {
+    font-size: 1em;
+  }
+  #social {
+    margin-bottom: 200px;
+  }
+  #inputs input[type="email"] {
+    width: 100px;
+  }
+  #inputs input[type="submit"] {
+    width: 80px;
+  }
+  label {
+    font-size: 18px;
+  }
+  nav .container {
+    background-color: #000000;
+  }
+  }
+@media (max-width: 725px) and (min-width: 561px) {
+  #header h1 {
+  font-size: 3em;
+  padding-top: 10px;
+  }
+  #header h2 {
+    font-size: 1em;
+  }
+}
