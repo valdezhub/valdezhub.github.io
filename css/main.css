@@ -1,0 +1,206 @@
+body {
+  background-color: #d1d0cb;
+  margin: 0;
+}
+::selection {
+  color: #f9d2d2;
+  background-color: #160303;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg.jpg); 
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -10;
+  margin-top: 0;
+}
+a {
+  color: #3b5065;
+}
+a:hover {
+  text-decoration: none;
+  color: #031219;
+}
+#header {
+  margin: 0 auto;
+  display: block;
+}
+#header-text {
+  margin-top: 50px;
+  width: 95%;
+  margin: 0 auto;
+}
+h1, h2 {
+  font-family: 'Alegreya Sans', Courier, monospace;
+  color: #000;
+  text-align: center;
+}
+#header h1 {
+  font-size: 6em;
+  font-family: 'Exo 2', 'Alegreya Sans', Courier, monospace;
+  font-weight: 300;
+  color: #3b5065;
+  letter-spacing: .2em;
+}
+#tagline {
+  font-weight: 400;
+  font-family: 'Roboto Slab', Georgia, serif;
+  color: #4a1313;
+  }
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+}
+#inputs {
+  margin: 0  auto;
+  text-align: right;
+  font-weight: 300;
+}
+#inputs input {
+  font-family: Arial;
+  padding: 10px;
+  display: inline;
+}
+#inputs input[type="submit"] {
+  background-color: #fa4542 ; 
+  color: #fff;
+  width: 100px;
+  height: 42px;
+  font-family: 'Alegreya Sans', Courier, monospace;
+  font-weight: 500;
+  -webkit-box-shadow: 0 3px 0 0 #be0201;
+  -moz-box-shadow: 0 3px 0 0 #be0201;
+  box-shadow: 0 3px 0 0 #be0201;
+  border: none;
+}
+#inputs input[type="submit"]:hover {
+  color:#fa4542;
+  background:#fff;
+  border: 1px solid #fa4542;
+}
+#inputs input[type="submit"]:active {
+  border: 1px solid #fa4542;
+ }
+#inputs input[type="email"] {
+  width: 400px;
+  height: 42px;
+}
+nav .container {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0px;
+  padding: 20px;
+}
+label {
+  float:left;
+  font-family: 'Alegreya Sans', Courier, monospace;
+  font-weight: 500;
+  font-size: 24px;
+  color: #f88785;
+  padding: 5px;
+  vertical-align: middle;
+  }
+#social {
+  margin: 0 auto;
+  font-size: 25px;
+  padding-top: 8px;
+  text-align: center;
+  color: #000;
+}
+#social a {
+	color: #3d0909;
+}
+#social a:hover {
+  color: #160303;
+}
+#watch-space {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+#watch-space h2 {
+  font-family: Roboto Slab, Georgia, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+#header-logo {
+  font-family: 'Exo 2', 'Alegreya Sans', Courier, monospace;
+  font-weight: 300;
+  letter-spacing: .2em;
+  color: #3b5065;
+  font-style: normal;
+}
+#header-logo:hover {
+	text-decoration: none;
+	color: #031219;
+}
+#phantom {
+  font-family: Roboto Slab, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: .1em;
+  color: #6f2825;
+}
+hr {
+  border-width: 3px;
+  border-color: #3b5065;
+}
+#second-line {
+  width: 70%;
+}
+@media (max-width: 560px) and (min-width: 366px) {
+  #header h1 {
+  font-size: 3em;
+  padding-top: 0;
+  }
+  #header h2 {
+    font-size: 1.5em;
+  }
+  #inputs input[type="email"] {
+    width: 200px;
+  }
+  #inputs input[type="submit"] {
+    width: 80px;
+  }
+  label {
+    font-size: 18px;
+  }
+  }
+@media (max-width: 725px) and (min-width: 561px) {
+  #header h1 {
+  font-size: 4em;
+  padding-top: 10px;
+  }
+  #header h2 {
+    font-size: 1.75em;
+  }
+}
+@media (max-width: 365px) {
+  #inputs input[type="email"] {
+    width: 180px;
+  }
+  #inputs input[type="submit"] {
+    width: 70px;
+  }
+#header h1 {
+  font-size: 2.75em;
+  padding-top: 0;
+  }
+  #header h2 {
+    font-size: 1.4em;
+  }
+  label {
+    font-size: 18px;
+    padding: 0;
+  }
+  * {
+    padding: 0;
+  }
+  #inputs input {
+    padding: 2px;
+  }
+  #social {
+    font-size: 20px;
+  }
+}
